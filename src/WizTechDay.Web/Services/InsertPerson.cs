@@ -19,7 +19,7 @@ namespace WizTechDay.Web.Services
 
         public async Task InsertAsync(PersonViewModel personViewModel)
         {
-            var personWithSameCpf = _personRepository.GetbyCpfAsync(personViewModel.Cpf);
+            var personWithSameCpf = await _personRepository.GetbyCpfAsync(personViewModel.Cpf);
 
             ValidatorRule.New()
                 .With(personWithSameCpf != null, Resource.CpfExist)

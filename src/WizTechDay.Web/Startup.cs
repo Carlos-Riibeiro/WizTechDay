@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using WizTechDay.IoC;
+using WizTechDay.Web.Filters;
 using WizTechDay.Web.Services;
 using WizTechDay.Web.Services.Interfaces;
 
@@ -21,12 +22,9 @@ namespace WizTechDay.Web
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.Configure<CookiePolicyOptions>(options =>
-            {
-                options.CheckConsentNeeded = context => true;
-                options.MinimumSameSitePolicy = SameSiteMode.None;
+            services.AddMvc(config => {
+                config.Filters.Add(typeof(CustomExceptionFilter));
             });
-
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
