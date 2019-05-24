@@ -1,0 +1,26 @@
+{
+  "name": "wiztechday",
+  "version": "1.0.0",
+  "description": "Projeto destinado a apresentação WizTechDay",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "testCafe": "./node_modules/.bin/testcafe chrome e2e -S -s screenshots"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlos-Riibeiro/WizTechDay.git"
+  },
+  "author": "Carlos-Riibeiro, yagoluiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlos-Riibeiro/WizTechDay/issues"
+  },
+  "homepage": "https://github.com/Carlos-Riibeiro/WizTechDay#readme",
+  "devDependencies": {
+    "faker": "^6.9.0",
+    "testcafe": "^6.9.0"
+  }
+}

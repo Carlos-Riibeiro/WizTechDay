@@ -27,7 +27,7 @@ namespace WizTechDay.Web.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Create(PersonViewModel model)
+        public async Task<IActionResult> CreateConfirm(PersonViewModel model)
         {
             await _insertPerson.InsertAsync(model);
 

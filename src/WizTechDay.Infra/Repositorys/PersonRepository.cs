@@ -21,7 +21,7 @@ namespace WizTechDay.Infra.Repositorys
             var query = @"SELECT * FROM dbo.Person
                             WHERE Cpf = @Cpf";
 
-            return await _dapperContext.WizTechDayConnection.QueryFirstOrDefaultAsync(query, new { Cpf = cpf });
+            return await _dapperContext.WizTechDayConnection.QueryFirstOrDefaultAsync<PersonModel>(query, new { Cpf = cpf });
         }
 
         public async Task InsertAsync(PersonModel person)

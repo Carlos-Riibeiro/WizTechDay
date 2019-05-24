@@ -19,7 +19,7 @@ namespace WizTechDay.Domain.Util
 
         public ValidatorRule With(bool isErro, string messageError)
         {
-            if (!isErro)
+            if (isErro)
                 _messageErrors.Add(messageError);
 
             return this;

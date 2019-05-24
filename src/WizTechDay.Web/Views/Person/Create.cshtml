@@ -12,29 +12,29 @@
     </div>
     <div class="row header">
         <div class="col-md-1">
-            <h3>Alunos</h3>
+            <h3>Person</h3>
         </div>
     </div>
     <div class="row form-wrapper">
         <div class="col-md-12">
-            <form id="form" class="form-horizontal" asp-action="Salvar" asp-controller="Person" asp-anti-forgery
+            <form id="form" class="form-horizontal" asp-action="CreateConfirm" asp-controller="Person" asp-anti-forgery
                   data-ajax="true" data-ajax-method="POST" data-ajax-failure="formQuandoFalha" data-ajax-success="window.location = '/Person'">
                 <div class="form-group">
-                    <label class="col-md-2 control-label">Nome</label>
+                    <label class="col-md-2 control-label">Name</label>
                     <div class="col-md-8">
                         <input type="text" class="form-control" asp-for="Name">
                         <span asp-validation-for="Name" class="text-danger"></span>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-md-2 control-label">CPF</label>
+                    <label class="col-md-2 control-label">Cpf</label>
                     <div class="col-md-8">
                         <input type="text" class="form-control" asp-for="Cpf">
                         <span asp-validation-for="Cpf" class="text-danger"></span>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-md-2 control-label">E-mail</label>
+                    <label class="col-md-2 control-label">Email</label>
                     <div class="col-md-8">
                         <input type="text" class="form-control" asp-for="Email">
                         <span asp-validation-for="Email" class="text-danger"></span>
