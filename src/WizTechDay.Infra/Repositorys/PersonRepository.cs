@@ -18,7 +18,7 @@ namespace WizTechDay.Infra.Repositorys
 
         public async Task<PersonModel> GetbyCpfAsync(object cpf)
         {
-            var query = @"SELECT * FROM dbo.Person
+            var query = @"SELECT Name, Cpf, Email FROM dbo.Person
                             WHERE Cpf = @Cpf";
 
             return await _dapperContext.WizTechDayConnection.QueryFirstOrDefaultAsync<PersonModel>(query, new { Cpf = cpf });
@@ -34,7 +34,7 @@ namespace WizTechDay.Infra.Repositorys
 
         public async Task<IEnumerable<PersonModel>> ListPersonAsync()
         {
-            var query = @"SELECT * FROM dbo.Person";
+            var query = @"SELECT Name, Cpf, Email FROM dbo.Person";
 
             return await _dapperContext.WizTechDayConnection.QueryAsync<PersonModel>(query);
         }
