@@ -1597,12 +1597,11 @@
       ]
     },
     "Microsoft.Win32.Registry/4.4.0": {
-      "sha512": "LJh1PSoqdugrCv7t+k2B919GGdq4PyrntPVlMCMrcz59nsjOstYmtGWSCiFZ3UNpxv2dlsZdcLzJ847uyOlaEA==",
+      "sha512": "dA36TlNVn/XfrZtmf0fiI/z1nd3Wfp2QVzTdj26pqgP9LFWq0i1hYEUAW50xUjGFYn1+/cP3KGuxT2Yn1OUNBQ==",
       "type": "package",
       "path": "microsoft.win32.registry/4.4.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net46/Microsoft.Win32.Registry.dll",
@@ -1765,13 +1764,12 @@
       ]
     },
     "Newtonsoft.Json/10.0.2": {
-      "sha512": "vcX8ci+srBr5scnSKCUNNoFo5BQ6KjdfeJ5LCJQhvxncNkTy7w3pAWsnRJrsF9WBBdMiaQp0aOa3YRh1CDCc7A==",
+      "sha512": "iwElSU2IXmwGvytJsezyDML2ZWDkG2JzTYzlU/BNlmzMdlmRvbnwITsGGY74gwVEpDli1UdOLkMT7/3jxWvXzA==",
       "type": "package",
       "path": "newtonsoft.json/10.0.2",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -1960,7 +1958,7 @@
       ]
     },
     "System.Collections.Specialized/4.3.0": {
-      "sha512": "Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
+      "sha512": "NoPBj0ykejqAWW4p4gGtrrL+3c84ZLSvGnHgq422ew1Rj4WKj1FA8/BCybqC111EtgcqUl6ZJNFYYS22HLgbjA==",
       "type": "package",
       "path": "system.collections.specialized/4.3.0",
       "files": [
@@ -2146,7 +2144,7 @@
       ]
     },
     "System.Data.SqlClient/4.4.0": {
-      "sha512": "yuMDT9o4j0n3XnH7o7EYliyjUYPQ4RBo9tTNA+M6/KQKMcKXKGqHoq2gCb2sEHCRs5HjTwRlwT/F1JVdYaNaDA==",
+      "sha512": "fxb9ghn1k1Ua7FFdlvtiBOD4/PsQvD/fk2KnhS+FK7VC6OggEx6P+lP1P0+KMb5V2dqS1+FbR7HCenoqzJMNIA==",
       "type": "package",
       "path": "system.data.sqlclient/4.4.0",
       "files": [
@@ -3179,12 +3177,11 @@
       ]
     },
     "System.Reflection.TypeExtensions/4.4.0": {
-      "sha512": "BWYdrACMy1Sbq7Kh1oISS+2qKX1dHhXNpRByG3c6M9i2fhU9BZqO3nFYIabmbZuQwd7svR5zfxNHgmgv2XkkIg==",
+      "sha512": "dkmh/ySlwnXJp/1qYP9uyKkCK1CXR/REFzl7abHcArxBcV91mY2CgrrzSRA5Z/X4MevJWwXsklGRdR3A7K9zbg==",
       "type": "package",
       "path": "system.reflection.typeextensions/4.4.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
@@ -3624,7 +3621,7 @@
       ]
     },
     "System.Runtime.Serialization.Formatters/4.3.0": {
-      "sha512": "MK2Z/a7GVtgS8xGptS14AywTTLSGUe/+q+dkHwAhPoUwG1O4bbA2fUlyqYzVTYf3YfrD1jqcl8irsQbMydwXFQ==",
+      "sha512": "KT591AkTNFOTbhZlaeMVvfax3RqhH1EJlcwF50Wm7sfnBLuHiOeZRRKrr1ns3NESkM20KPZ5Ol/ueMq5vg4QoQ==",
       "type": "package",
       "path": "system.runtime.serialization.formatters/4.3.0",
       "files": [
@@ -3652,11 +3649,12 @@
       ]
     },
     "System.Runtime.Serialization.Primitives/4.3.0": {
-      "sha512": "Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
+      "sha512": "2Z5t70a2SwMsfQDp9KOclaZNyQhfIga2gppq9lIUDM1A4ohTshn4JqT7ir8bvIhXgorWKYDAr6rPzEbi/nTGKg==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3724,12 +3722,11 @@
       ]
     },
     "System.Security.AccessControl/4.4.0": {
-      "sha512": "UPF+s4KctOCpk7dpBe3QtZ1AzFEHKdhOtiNDLxGnD/nxKsVbsow5OClTy8c7yOObw/Evbv95xRwZfYZ4wLV4fA==",
+      "sha512": "2NRFPX/V81ucKQmqNgGBZrKGH/5ejsvivSGMRum0SMgPnJxwhuNkzVS1+7gC3R2X0f57CtwrPrXPPSe6nOp82g==",
       "type": "package",
       "path": "system.security.accesscontrol/4.4.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net46/System.Security.AccessControl.dll",
@@ -3764,12 +3761,11 @@
       ]
     },
     "System.Security.Principal.Windows/4.4.0": {
-      "sha512": "ynC5BKYwhgON6WH/yPM5ZLKc19wqC13A5fl4hZa5Lf8pQwv1YmbCPKGualWSRhEoOVWH2FzZhOXauER6al4Upg==",
+      "sha512": "pP+AOzt1o3jESOuLmf52YQTF7H3Ng9hTnrOESQiqsnl2IbBh1HInsAMHYtoh75iUYV0OIkHmjvveraYB6zM97w==",
       "type": "package",
       "path": "system.security.principal.windows/4.4.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net46/System.Security.Principal.Windows.dll",
@@ -3871,7 +3867,7 @@
       ]
     },
     "System.Text.Encoding.CodePages/4.4.0": {
-      "sha512": "FpAgMC+BX6OOCiRebYqHP3r3aYU7o0lopPOo4zKyGc5LWXFEYRUaKtoXXvAJ3sP+IDOK/KBxZaiVAdi+QdZ0TA==",
+      "sha512": "6JX7ZdaceBiLKLkYt8zJcp4xTJd1uYyXXEkPw6mnlUIjh1gZPIVKPtRXPmY5kLf6DwZmf5YLwR3QUrRonl7l0A==",
       "type": "package",
       "path": "system.text.encoding.codepages/4.4.0",
       "files": [
@@ -4352,23 +4348,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\carlosaugustoribeiro\\.nuget\\packages\\": {},
+    "C:\\Users\\Carlos\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.IoC\\WizTechDay.IoC.csproj",
+      "projectUniqueName": "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.IoC\\WizTechDay.IoC.csproj",
       "projectName": "WizTechDay.IoC",
-      "projectPath": "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.IoC\\WizTechDay.IoC.csproj",
-      "packagesPath": "C:\\Users\\carlosaugustoribeiro\\.nuget\\packages\\",
-      "outputPath": "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.IoC\\obj\\",
+      "projectPath": "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.IoC\\WizTechDay.IoC.csproj",
+      "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
+      "outputPath": "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.IoC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\carlosaugustoribeiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4376,17 +4372,16 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://wizsolucoes.pkgs.visualstudio.com/_packaging/WizCross/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.Domain\\WizTechDay.Domain.csproj": {
-              "projectPath": "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.Domain\\WizTechDay.Domain.csproj"
+            "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.Domain\\WizTechDay.Domain.csproj": {
+              "projectPath": "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.Domain\\WizTechDay.Domain.csproj"
             },
-            "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.Infra\\WizTechDay.Infra.csproj": {
-              "projectPath": "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.Infra\\WizTechDay.Infra.csproj"
+            "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.Infra\\WizTechDay.Infra.csproj": {
+              "projectPath": "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.Infra\\WizTechDay.Infra.csproj"
             }
           }
         }

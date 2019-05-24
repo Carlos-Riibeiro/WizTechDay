@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.IoC\\WizTechDay.IoC.csproj": {}
+    "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.IoC\\WizTechDay.IoC.csproj": {}
   },
   "projects": {
-    "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.Domain\\WizTechDay.Domain.csproj": {
+    "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.Domain\\WizTechDay.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.Domain\\WizTechDay.Domain.csproj",
+        "projectUniqueName": "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.Domain\\WizTechDay.Domain.csproj",
         "projectName": "WizTechDay.Domain",
-        "projectPath": "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.Domain\\WizTechDay.Domain.csproj",
-        "packagesPath": "C:\\Users\\carlosaugustoribeiro\\.nuget\\packages\\",
-        "outputPath": "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.Domain\\obj\\",
+        "projectPath": "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.Domain\\WizTechDay.Domain.csproj",
+        "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\carlosaugustoribeiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,8 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://wizsolucoes.pkgs.visualstudio.com/_packaging/WizCross/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
@@ -61,20 +60,20 @@
         }
       }
     },
-    "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.Infra\\WizTechDay.Infra.csproj": {
+    "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.Infra\\WizTechDay.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.Infra\\WizTechDay.Infra.csproj",
+        "projectUniqueName": "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.Infra\\WizTechDay.Infra.csproj",
         "projectName": "WizTechDay.Infra",
-        "projectPath": "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.Infra\\WizTechDay.Infra.csproj",
-        "packagesPath": "C:\\Users\\carlosaugustoribeiro\\.nuget\\packages\\",
-        "outputPath": "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.Infra\\obj\\",
+        "projectPath": "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.Infra\\WizTechDay.Infra.csproj",
+        "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\carlosaugustoribeiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,14 +81,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://wizsolucoes.pkgs.visualstudio.com/_packaging/WizCross/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.Domain\\WizTechDay.Domain.csproj": {
-                "projectPath": "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.Domain\\WizTechDay.Domain.csproj"
+              "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.Domain\\WizTechDay.Domain.csproj": {
+                "projectPath": "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.Domain\\WizTechDay.Domain.csproj"
               }
             }
           }
@@ -126,20 +124,20 @@
         }
       }
     },
-    "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.IoC\\WizTechDay.IoC.csproj": {
+    "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.IoC\\WizTechDay.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.IoC\\WizTechDay.IoC.csproj",
+        "projectUniqueName": "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.IoC\\WizTechDay.IoC.csproj",
         "projectName": "WizTechDay.IoC",
-        "projectPath": "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.IoC\\WizTechDay.IoC.csproj",
-        "packagesPath": "C:\\Users\\carlosaugustoribeiro\\.nuget\\packages\\",
-        "outputPath": "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.IoC\\obj\\",
+        "projectPath": "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.IoC\\WizTechDay.IoC.csproj",
+        "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.IoC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\carlosaugustoribeiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -147,17 +145,16 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://wizsolucoes.pkgs.visualstudio.com/_packaging/WizCross/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.Domain\\WizTechDay.Domain.csproj": {
-                "projectPath": "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.Domain\\WizTechDay.Domain.csproj"
+              "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.Domain\\WizTechDay.Domain.csproj": {
+                "projectPath": "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.Domain\\WizTechDay.Domain.csproj"
               },
-              "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.Infra\\WizTechDay.Infra.csproj": {
-                "projectPath": "D:\\Pocs\\WizTechDay\\demo\\src\\WizTechDay.Infra\\WizTechDay.Infra.csproj"
+              "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.Infra\\WizTechDay.Infra.csproj": {
+                "projectPath": "D:\\Projetos\\WizTechDay\\WizTechDay\\poc\\WizTechDay\\src\\WizTechDay.Infra\\WizTechDay.Infra.csproj"
               }
             }
           }
