@@ -16,3 +16,12 @@ D:\Pocs\WizTechDay\demo\src\WizTechDay.Domain\obj\Debug\netcoreapp2.2\WizTechDay
 D:\Pocs\WizTechDay\demo\src\WizTechDay.Domain\obj\Debug\netcoreapp2.2\WizTechDay.Domain.AssemblyInfo.cs
 D:\Pocs\WizTechDay\demo\src\WizTechDay.Domain\obj\Debug\netcoreapp2.2\WizTechDay.Domain.dll
 D:\Pocs\WizTechDay\demo\src\WizTechDay.Domain\obj\Debug\netcoreapp2.2\WizTechDay.Domain.pdb
+D:\Projetos\WizTechDay\WizTechDay\poc\WizTechDay\src\WizTechDay.Domain\bin\Debug\netcoreapp2.2\WizTechDay.Domain.deps.json
+D:\Projetos\WizTechDay\WizTechDay\poc\WizTechDay\src\WizTechDay.Domain\bin\Debug\netcoreapp2.2\WizTechDay.Domain.dll
+D:\Projetos\WizTechDay\WizTechDay\poc\WizTechDay\src\WizTechDay.Domain\bin\Debug\netcoreapp2.2\WizTechDay.Domain.pdb
+D:\Projetos\WizTechDay\WizTechDay\poc\WizTechDay\src\WizTechDay.Domain\obj\Debug\netcoreapp2.2\WizTechDay.Domain.csprojAssemblyReference.cache
+D:\Projetos\WizTechDay\WizTechDay\poc\WizTechDay\src\WizTechDay.Domain\obj\Debug\netcoreapp2.2\WizTechDay.Domain.csproj.CoreCompileInputs.cache
+D:\Projetos\WizTechDay\WizTechDay\poc\WizTechDay\src\WizTechDay.Domain\obj\Debug\netcoreapp2.2\WizTechDay.Domain.AssemblyInfoInputs.cache
+D:\Projetos\WizTechDay\WizTechDay\poc\WizTechDay\src\WizTechDay.Domain\obj\Debug\netcoreapp2.2\WizTechDay.Domain.AssemblyInfo.cs
+D:\Projetos\WizTechDay\WizTechDay\poc\WizTechDay\src\WizTechDay.Domain\obj\Debug\netcoreapp2.2\WizTechDay.Domain.dll
+D:\Projetos\WizTechDay\WizTechDay\poc\WizTechDay\src\WizTechDay.Domain\obj\Debug\netcoreapp2.2\WizTechDay.Domain.pdb
