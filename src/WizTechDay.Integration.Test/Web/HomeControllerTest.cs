@@ -16,7 +16,8 @@ namespace WizTechDay.Integration.Test.Web
 
         [Theory]
         [InlineData("/")]
-        [InlineData("/Index")]
+        [InlineData("/Home/Index")]
+        [InlineData("/Home/Privacy")]
         public async Task Get_EndpointsReturnSuccessAndCorrectContentType(string url)
         {
             var client = _factory.CreateClient();

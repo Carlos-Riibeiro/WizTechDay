@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0EC1DF6D-2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WizTechDay.Web", "src\WizTechDay.Web\WizTechDay.Web.csproj", "{D1211EC3-3111-4418-BBFE-A403371CBEF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizTechDay.Integration.Test", "src\WizTechDay.Integration.Test\WizTechDay.Integration.Test.csproj", "{9184D7AB-7914-40B4-8882-D9388E09132D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WizTechDay.Integration.Test", "src\WizTechDay.Integration.Test\WizTechDay.Integration.Test.csproj", "{9184D7AB-7914-40B4-8882-D9388E09132D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
