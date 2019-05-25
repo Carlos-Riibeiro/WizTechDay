@@ -42,7 +42,8 @@ namespace WizTechDay.Infra.Repositorys
 
         public async Task<IEnumerable<PersonModel>> ListPersonAsync()
         {
-            var query = @"SELECT Id, Name, Cpf, Email FROM dbo.Person";
+            var query = @"SELECT Id, Name, Cpf, Email FROM dbo.Person
+                           ORDER BY Id DESC";
 
             return await _dapperContext.WizTechDayConnection.QueryAsync<PersonModel>(query);
         }
