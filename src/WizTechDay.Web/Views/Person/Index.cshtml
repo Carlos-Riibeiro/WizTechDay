@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Person";
+    var count = 0;
 }
 
 <h1 id="subtitle-person">Lista de pessoas</h1>
@@ -24,19 +25,27 @@
             <th></th>
         </tr>
     </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Cpf)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-        </tr>
-}
+    <tbody id="bory-person">
+        @foreach (var item in Model)
+        {
+            count++;
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cpf)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    <a href="/Person/Edit/@item.Id" id="edit-person+@count" class="btn">Editar</a>
+                </td>
+                <td>
+                    <a href="/Person/Delete/@item.Id" id="delete-person+@count"  class="btn">Excluir</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

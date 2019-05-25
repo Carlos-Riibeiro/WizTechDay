@@ -15,6 +15,11 @@ namespace WizTechDay.Web.Services
             _personRepository = personRepository;
         }
 
+        public async Task<PersonModel> GetByIdAsync(int id)
+        {
+            return await _personRepository.GetByIdAsync(id);
+        }
+
         public async Task<IEnumerable<PersonModel>> ListPersonAsync()
         {
             return await _personRepository.ListPersonAsync();

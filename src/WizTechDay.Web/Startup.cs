@@ -93,6 +93,8 @@ namespace WizTechDay.Web
         {
             services.AddScoped<IInsertPerson, InsertPerson>();
             services.AddScoped<IListPersonService, ListPersonService>();
+            services.AddScoped<IEditPersonService, EditPersonService>();
+            services.AddScoped<IDeletePersonService, DeletePersonService>();
 
             StartupIoC.RegisterServices(services);
         }

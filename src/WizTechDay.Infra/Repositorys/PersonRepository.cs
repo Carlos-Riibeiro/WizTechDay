@@ -18,10 +18,18 @@ namespace WizTechDay.Infra.Repositorys
 
         public async Task<PersonModel> GetbyCpfAsync(object cpf)
         {
-            var query = @"SELECT Name, Cpf, Email FROM dbo.Person
+            var query = @"SELECT Id, Name, Cpf, Email FROM dbo.Person
                             WHERE Cpf = @Cpf";
 
             return await _dapperContext.WizTechDayConnection.QueryFirstOrDefaultAsync<PersonModel>(query, new { Cpf = cpf });
+        }
+
+        public async Task<PersonModel> GetByIdAsync(int id)
+        {
+            var query = @"SELECT Id, Name, Cpf, Email FROM dbo.Person
+                            WHERE Id = @Id";
+
+            return await _dapperContext.WizTechDayConnection.QueryFirstOrDefaultAsync<PersonModel>(query, new { Id = id });
         }
 
         public async Task InsertAsync(PersonModel person)
@@ -34,9 +42,26 @@ namespace WizTechDay.Infra.Repositorys
 
         public async Task<IEnumerable<PersonModel>> ListPersonAsync()
         {
-            var query = @"SELECT Name, Cpf, Email FROM dbo.Person";
+            var query = @"SELECT Id, Name, Cpf, Email FROM dbo.Person";
 
             return await _dapperContext.WizTechDayConnection.QueryAsync<PersonModel>(query);
+        }
+
+        public async Task UpdateAsync(PersonModel model)
+        {
+            var query = @"UPDATE dbo.Person
+                            SET Name = @Name, Cpf = @Cpf, Email = @Email
+                            WHERE Id = @Id";
+
+            await _dapperContext.WizTechDayConnection.ExecuteAsync(query, new { Name = model.Name, Cpf = model.Cpf, Email = model.Email, Id = model.Id });
+        }
+
+        public async Task DeleteAsync(int id)
+        {
+            var query = @"DELETE FROM dbo.Person
+                            WHERE Id = @Id";
+
+            await _dapperContext.WizTechDayConnection.ExecuteAsync(query, new { Id = id });
         }
     }
 }
