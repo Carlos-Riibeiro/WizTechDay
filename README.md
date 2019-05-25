@@ -14,3 +14,4 @@ Demo realizada no evento [Wiz Tech Day](https://www.sympla.com.br/wiz-tech-day--
 # Instruções para execução do projeto
 
 * Executar projeto via Visual Studio ou Visual Studio Code
+* Instalar bibliotecas npm (gerador-validador-cpf, testcafe)
