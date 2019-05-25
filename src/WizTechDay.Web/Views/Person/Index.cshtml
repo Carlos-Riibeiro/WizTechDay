@@ -25,7 +25,8 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+        @foreach (var item in Model)
+        {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Name)
@@ -36,7 +37,13 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Email)
             </td>
+            <td>
+                <a href="/Person/Edit/@item.Id" id="edit-person" class="btn">Editar</a>
+            </td>
+            <td>
+                <a href="/Person/Delete/@item.Id" id="delete-person" class="btn">Excluir</a>
+            </td>
         </tr>
-}
+        }
     </tbody>
 </table>
